@@ -1,0 +1,27 @@
+{
+  "mIoU": 0.219735885280049,
+  "per_class": {
+    "car": 49.89,
+    "bicycle": 1.36,
+    "motorcycle": 2.73,
+    "truck": 25.49,
+    "other-vehicle": 0.59,
+    "person": 30.78,
+    "bicyclist": 2.11,
+    "motorcyclist": 3.05,
+    "road": 33.07,
+    "parking": 8.14,
+    "sidewalk": 19.26,
+    "other-ground": 0.56,
+    "building": 63.41,
+    "fence": 23.92,
+    "vegetation": 56.35,
+    "trunk": 26.36,
+    "terrain": 33.2,
+    "pole": 25.24,
+    "traffic-sign": 11.99
+  },
+  "target": "stf",
+  "nuisance_corr_target": 0.24151956420391799,
+  "ckpt": "/home/zyf/paper/Syn2Real-LiDAR-DG/code/exp/samsens_s2/model.pth"
+}

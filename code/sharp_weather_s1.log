@@ -1,0 +1,8 @@
+{
+  "ckpt": "/home/zyf/paper/Syn2Real-LiDAR-DG/code/exp/weather_s1/model.pth",
+  "rho": 0.05,
+  "base_loss": 0.08375495951622725,
+  "sharpness_mean": 0.02974606848632296,
+  "sharpness_std": 0.009813847151217858,
+  "n_dirs": 8
+}

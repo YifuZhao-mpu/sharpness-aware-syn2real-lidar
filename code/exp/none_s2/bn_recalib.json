@@ -1,0 +1,61 @@
+{
+  "run": "none_s2",
+  "ckpt": "/home/zyf/paper/Syn2Real-LiDAR-DG\uff08cvpr2027\uff09/code/exp/none_s2/model.pth",
+  "calib": {
+    "n_scans": 804,
+    "stride": 247,
+    "batch_size": 4,
+    "unaugmented": true,
+    "recipe": "reset_running_stats+momentum=None (cumulative)"
+  },
+  "before": {
+    "kitti": 0.27662373561095416,
+    "stf": 0.20538402802070543
+  },
+  "after": {
+    "kitti": 0.26778137491579646,
+    "stf": 0.18896887460165726,
+    "kitti_per_class": {
+      "car": 61.67,
+      "bicycle": 6.66,
+      "motorcycle": 14.88,
+      "truck": 1.24,
+      "other-vehicle": 6.17,
+      "person": 28.34,
+      "bicyclist": 40.36,
+      "motorcyclist": 2.55,
+      "road": 33.73,
+      "parking": 8.27,
+      "sidewalk": 35.17,
+      "other-ground": 0.02,
+      "building": 57.45,
+      "fence": 36.83,
+      "vegetation": 70.7,
+      "trunk": 30.89,
+      "terrain": 24.35,
+      "pole": 33.91,
+      "traffic-sign": 15.58
+    },
+    "stf_per_class": {
+      "car": 34.24,
+      "bicycle": 1.57,
+      "motorcycle": 2.0,
+      "truck": 22.89,
+      "other-vehicle": 0.17,
+      "person": 27.59,
+      "bicyclist": 1.73,
+      "motorcyclist": 0.23,
+      "road": 25.2,
+      "parking": 8.56,
+      "sidewalk": 18.93,
+      "other-ground": 0.68,
+      "building": 58.06,
+      "fence": 23.29,
+      "vegetation": 48.28,
+      "trunk": 21.08,
+      "terrain": 36.89,
+      "pole": 19.2,
+      "traffic-sign": 8.46
+    }
+  }
+}

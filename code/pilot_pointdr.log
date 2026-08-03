@@ -1,0 +1,6 @@
+[22:17:00] SynLiDAR source scans: 9920  mode=none lambda_w=0.0 cr=0.5
+[22:21:52] epoch 0 done in 292s ce=0.778 w=2.6048 nuis_corr=0.411 lr=0.0987
+[22:26:38] epoch 1 done in 287s ce=0.450 w=2.4927 nuis_corr=0.418 lr=0.0940
+[22:31:25] epoch 2 done in 287s ce=0.339 w=2.4747 nuis_corr=0.367 lr=0.0862
+[22:36:12] epoch 3 done in 287s ce=0.277 w=2.4562 nuis_corr=0.435 lr=0.0759
+[22:36:26]   EVAL epoch 3: KITTI mIoU=24.60  STF mIoU=17.66

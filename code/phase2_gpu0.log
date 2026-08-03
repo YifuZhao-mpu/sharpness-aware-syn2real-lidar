@@ -1,0 +1,2 @@
+GPUs=[0] pending=['sampolar_s1', 'sampolar_s2', 'none_long_s1', 'none_long_s2', 'cr1_none_s1', 'cr1_sam_s1', 'cr1_none_s2', 'cr1_sam_s2']
+[09:03:36] launch sampolar_s1 GPU0

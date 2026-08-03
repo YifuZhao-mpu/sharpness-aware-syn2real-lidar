@@ -1,0 +1,8 @@
+{
+  "ckpt": "exp/sampolar_s2/model.pth",
+  "rho": 0.05,
+  "base_loss": 0.12471775089701016,
+  "sharpness_mean": 0.01640537132819494,
+  "sharpness_std": 0.002669032940766111,
+  "n_dirs": 5
+}

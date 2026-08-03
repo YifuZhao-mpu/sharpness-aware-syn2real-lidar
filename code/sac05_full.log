@@ -1,0 +1,28 @@
+[23:21:04] SynLiDAR source scans: 19840  mode=none lambda_w=0.0 cr=0.5
+[23:29:15] epoch 0 done in 490s ce=0.579 w=0.6091 nuis_corr=0.479 lr=0.0999
+[23:37:23] epoch 1 done in 488s ce=0.278 w=0.3086 nuis_corr=0.469 lr=0.0996
+[23:45:30] epoch 2 done in 487s ce=0.239 w=0.2738 nuis_corr=0.453 lr=0.0991
+[23:53:37] epoch 3 done in 487s ce=0.224 w=0.2586 nuis_corr=0.364 lr=0.0984
+[00:01:43] epoch 4 done in 487s ce=0.230 w=0.2673 nuis_corr=0.392 lr=0.0974
+[00:09:51] epoch 5 done in 488s ce=0.221 w=0.2592 nuis_corr=0.364 lr=0.0963
+[00:18:01] epoch 6 done in 490s ce=0.199 w=0.2405 nuis_corr=0.398 lr=0.0950
+[00:26:10] epoch 7 done in 490s ce=0.205 w=0.2478 nuis_corr=0.384 lr=0.0934
+[00:26:26]   EVAL epoch 7: KITTI mIoU=3.17  STF mIoU=2.67
+[00:34:36] epoch 8 done in 490s ce=0.195 w=0.2395 nuis_corr=0.403 lr=0.0917
+[00:42:46] epoch 9 done in 490s ce=0.193 w=0.2341 nuis_corr=0.409 lr=0.0898
+[00:50:56] epoch 10 done in 490s ce=0.200 w=0.2423 nuis_corr=0.376 lr=0.0878
+[00:59:06] epoch 11 done in 490s ce=0.205 w=0.2472 nuis_corr=0.390 lr=0.0855
+[01:07:17] epoch 12 done in 491s ce=0.218 w=0.2579 nuis_corr=0.396 lr=0.0831
+[01:15:26] epoch 13 done in 489s ce=0.201 w=0.2420 nuis_corr=0.379 lr=0.0806
+[01:23:36] epoch 14 done in 490s ce=0.208 w=0.2495 nuis_corr=0.380 lr=0.0780
+[01:31:46] epoch 15 done in 490s ce=0.211 w=0.2564 nuis_corr=0.331 lr=0.0752
+[01:32:01]   EVAL epoch 15: KITTI mIoU=1.02  STF mIoU=0.63
+[01:40:10] epoch 16 done in 489s ce=0.219 w=0.2631 nuis_corr=0.335 lr=0.0723
+[01:48:20] epoch 17 done in 490s ce=0.248 w=0.2871 nuis_corr=0.314 lr=0.0693
+[01:56:29] epoch 18 done in 490s ce=0.244 w=0.2877 nuis_corr=0.308 lr=0.0663
+[02:04:39] epoch 19 done in 490s ce=0.216 w=0.2591 nuis_corr=0.346 lr=0.0631
+[02:12:49] epoch 20 done in 490s ce=0.211 w=0.2518 nuis_corr=0.316 lr=0.0599
+[02:20:59] epoch 21 done in 490s ce=0.187 w=0.2301 nuis_corr=0.309 lr=0.0567
+[02:29:09] epoch 22 done in 490s ce=0.201 w=0.2459 nuis_corr=0.324 lr=0.0534
+[02:37:18] epoch 23 done in 489s ce=0.165 w=0.2086 nuis_corr=0.321 lr=0.0502
+[02:37:33]   EVAL epoch 23: KITTI mIoU=15.02  STF mIoU=14.07

@@ -1,0 +1,44 @@
+{
+  "run": "lasermix_s1",
+  "cr": 0.5,
+  "n_scans": 500,
+  "intensity_scale": 0.00392156862745098,
+  "intensity_peek": {
+    "file": "000001.bin",
+    "ncols": 4,
+    "inten_min": 1.0,
+    "inten_max": 255.0
+  },
+  "asis": {
+    "mIoU": 0.4160914147542863,
+    "per_class": {
+      "person": 44.55,
+      "rider": 45.16,
+      "car": 26.36,
+      "trunk": 41.07,
+      "plants": 67.62,
+      "traffic-sign": 17.67,
+      "pole": 32.23,
+      "building": 68.25,
+      "fence": 29.02,
+      "bike": 12.89,
+      "ground": 72.88
+    }
+  },
+  "bn_recalib": {
+    "mIoU": 0.39956106852395473,
+    "per_class": {
+      "person": 42.5,
+      "rider": 43.89,
+      "car": 26.96,
+      "trunk": 39.93,
+      "plants": 65.96,
+      "traffic-sign": 16.42,
+      "pole": 34.12,
+      "building": 61.61,
+      "fence": 23.47,
+      "bike": 13.9,
+      "ground": 70.76
+    }
+  }
+}

@@ -1,0 +1,8 @@
+GPUs=[1]  pending=['none_s3', 'sam005_s2', 'sam005_s3', 'samsens_s1', 'samsens_s2', 'sam010_s1', 'sam001_s1', 'sam020_s1', 'dr_full_s1', 'samdr_s1']
+[09:57:08] launch none_s3 GPU1
+[13:52:29] DONE none_s3 GPU1 rc=0 ok=True
+[13:53:09] launch sam005_s3 GPU1
+[21:11:20] DONE sam005_s3 GPU1 rc=0 ok=True
+[21:11:40] launch samsens_s1 GPU1
+[03:57:48] DONE samsens_s1 GPU1 rc=0 ok=True
+[03:58:08] launch samsens_s2 GPU1

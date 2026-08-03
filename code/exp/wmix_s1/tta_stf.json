@@ -1,0 +1,27 @@
+{
+  "mIoU": 0.27167713609816846,
+  "per_class": {
+    "car": 67.23,
+    "bicycle": 2.99,
+    "motorcycle": 18.08,
+    "truck": 22.53,
+    "other-vehicle": 3.17,
+    "person": 41.39,
+    "bicyclist": 9.34,
+    "motorcyclist": 19.73,
+    "road": 47.92,
+    "parking": 5.59,
+    "sidewalk": 20.68,
+    "other-ground": 2.16,
+    "building": 59.33,
+    "fence": 32.04,
+    "vegetation": 60.55,
+    "trunk": 31.82,
+    "terrain": 31.2,
+    "pole": 28.61,
+    "traffic-sign": 11.83
+  },
+  "target": "stf",
+  "n_views": 8,
+  "ckpt": "exp/wmix_s1/model.pth"
+}

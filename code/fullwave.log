@@ -1,0 +1,3 @@
+pending: ['none_full', 'sac05_full', 'sac10_full', 'sam005_full']
+[23:20:51] launch none_full GPU0
+[23:21:01] launch sac05_full GPU1

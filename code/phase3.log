@@ -1,0 +1,11 @@
+GPUs=[0, 1] pending=['pointdr_s1', 'pointdr_s2', 'pointdr_s3', 'cr1_none_s2', 'cr1_sam_s2', 'cr1_none_s3', 'cr1_sam_s3']
+[22:37:47] launch pointdr_s1 GPU0
+[22:38:07] launch pointdr_s2 GPU1
+[05:58:08] DONE pointdr_s2 GPU1 rc=0 ok=True
+[05:58:29] launch pointdr_s3 GPU1
+[06:18:09] DONE pointdr_s1 GPU0 rc=0 ok=True
+[06:18:29] launch cr1_none_s2 GPU0
+[13:14:30] DONE pointdr_s3 GPU1 rc=0 ok=True
+[13:14:50] launch cr1_sam_s2 GPU1
+[15:14:36] DONE cr1_none_s2 GPU0 rc=0 ok=True
+[15:14:56] launch cr1_none_s3 GPU0

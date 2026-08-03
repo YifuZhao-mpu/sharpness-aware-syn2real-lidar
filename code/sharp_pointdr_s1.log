@@ -1,0 +1,8 @@
+{
+  "ckpt": "/home/zyf/paper/Syn2Real-LiDAR-DG/code/exp/pointdr_s1/model.pth",
+  "rho": 0.05,
+  "base_loss": 0.09065352783848842,
+  "sharpness_mean": 0.16583463448720676,
+  "sharpness_std": 0.06771857149702933,
+  "n_dirs": 8
+}

@@ -1,0 +1,8 @@
+{
+  "ckpt": "exp/none_s2/model.pth",
+  "rho": 0.05,
+  "base_loss": 0.13120424250761667,
+  "sharpness_mean": 0.10448133970300359,
+  "sharpness_std": 0.06007977833488036,
+  "n_dirs": 5
+}

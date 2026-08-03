@@ -1,0 +1,8 @@
+[2026-06-04 00:17:43] LANE_GPU0 START
+[2026-06-04 00:17:43] TRAIN wmix_s3 :: --polarmix --lasermix --weather --seed 3
+[2026-06-04 04:13:47] EVAL wmix_s3
+[2026-06-04 04:15:07] DONE wmix_s3
+[2026-06-04 04:15:07] TRAIN sampolar010_s1 :: --sam_rho 0.10 --polarmix --seed 1
+[2026-06-04 12:00:34] EVAL sampolar010_s1
+[2026-06-04 12:01:48] DONE sampolar010_s1
+[2026-06-04 12:01:48] LANE_GPU0 COMPLETE

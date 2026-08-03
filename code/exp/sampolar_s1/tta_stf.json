@@ -1,0 +1,27 @@
+{
+  "mIoU": 0.2592680920624395,
+  "per_class": {
+    "car": 53.12,
+    "bicycle": 4.81,
+    "motorcycle": 5.49,
+    "truck": 21.8,
+    "other-vehicle": 2.47,
+    "person": 39.03,
+    "bicyclist": 5.3,
+    "motorcyclist": 10.82,
+    "road": 55.39,
+    "parking": 7.75,
+    "sidewalk": 22.11,
+    "other-ground": 0.61,
+    "building": 69.32,
+    "fence": 37.32,
+    "vegetation": 58.89,
+    "trunk": 33.56,
+    "terrain": 29.31,
+    "pole": 25.25,
+    "traffic-sign": 10.26
+  },
+  "target": "stf",
+  "n_views": 8,
+  "ckpt": "/home/zyf/paper/Syn2Real-LiDAR-DG/code/exp/sampolar_s1/model.pth"
+}

@@ -1,0 +1,19 @@
+{
+  "mode": "sensing",
+  "lambda_w": 0.1,
+  "epochs": 12,
+  "batch_size": 4,
+  "lr": 0.1,
+  "wd": 0.0001,
+  "cr": 0.5,
+  "voxel_size": 0.05,
+  "num_points": 80000,
+  "stride": 20,
+  "no_intensity": false,
+  "seed": 1,
+  "warmup_iters": 300,
+  "save_path": "exp/pilot_sensing",
+  "eval_every": 4,
+  "max_iters": 0,
+  "eval_max_scans": 500
+}

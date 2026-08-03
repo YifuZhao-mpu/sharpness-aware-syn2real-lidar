@@ -1,0 +1,8 @@
+{
+  "ckpt": "exp/samwmix_s1/model.pth",
+  "rho": 0.05,
+  "base_loss": 0.09205592175324757,
+  "sharpness_mean": 0.01225484522680442,
+  "sharpness_std": 0.003919683216833801,
+  "n_dirs": 5
+}

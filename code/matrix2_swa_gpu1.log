@@ -1,0 +1,4 @@
+GPUs=[1]  pending=['swa_s2', 'swa_s3']
+[22:33:40] launch swa_s2 GPU1
+[02:14:41] DONE swa_s2 GPU1 rc=0 ok=True
+MATRIX2 DONE

@@ -1,0 +1,8 @@
+{
+  "ckpt": "exp/lasermix_s1/model.pth",
+  "rho": 0.05,
+  "base_loss": 0.08365531576176484,
+  "sharpness_mean": 0.037830343469977386,
+  "sharpness_std": 0.01920867531234137,
+  "n_dirs": 5
+}

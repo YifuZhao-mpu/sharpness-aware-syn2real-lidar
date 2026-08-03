@@ -1,0 +1,58 @@
+[10:17:52] SynLiDAR source scans: 19840  mode=none lambda_w=0.0 cr=0.5
+[10:27:08] epoch 0 done in 556s ce=0.613 w=0.0000 nuis_corr=0.386 lr=0.0999
+[10:36:20] epoch 1 done in 552s ce=0.281 w=0.0000 nuis_corr=0.328 lr=0.0996
+[10:45:32] epoch 2 done in 551s ce=0.219 w=0.0000 nuis_corr=0.362 lr=0.0991
+[10:54:43] epoch 3 done in 551s ce=0.191 w=0.0000 nuis_corr=0.303 lr=0.0984
+[11:03:54] epoch 4 done in 551s ce=0.169 w=0.0000 nuis_corr=0.306 lr=0.0974
+[11:13:13] epoch 5 done in 559s ce=0.158 w=0.0000 nuis_corr=0.350 lr=0.0963
+[11:22:35] epoch 6 done in 562s ce=0.147 w=0.0000 nuis_corr=0.351 lr=0.0950
+[11:31:59] epoch 7 done in 563s ce=0.144 w=0.0000 nuis_corr=0.340 lr=0.0934
+[11:32:14]   EVAL epoch 7: KITTI mIoU=22.21  STF mIoU=18.11
+[11:41:36] epoch 8 done in 562s ce=0.140 w=0.0000 nuis_corr=0.329 lr=0.0917
+[11:50:58] epoch 9 done in 562s ce=0.134 w=0.0000 nuis_corr=0.365 lr=0.0898
+[12:00:14] epoch 10 done in 557s ce=0.131 w=0.0000 nuis_corr=0.330 lr=0.0878
+[12:09:26] epoch 11 done in 551s ce=0.121 w=0.0000 nuis_corr=0.376 lr=0.0855
+[12:18:36] epoch 12 done in 550s ce=0.126 w=0.0000 nuis_corr=0.332 lr=0.0831
+[12:27:47] epoch 13 done in 551s ce=0.117 w=0.0000 nuis_corr=0.320 lr=0.0806
+[12:36:58] epoch 14 done in 550s ce=0.115 w=0.0000 nuis_corr=0.315 lr=0.0780
+[12:46:08] epoch 15 done in 551s ce=0.116 w=0.0000 nuis_corr=0.314 lr=0.0752
+[12:46:23]   EVAL epoch 15: KITTI mIoU=28.66  STF mIoU=20.52
+[12:55:34] epoch 16 done in 551s ce=0.113 w=0.0000 nuis_corr=0.354 lr=0.0723
+[13:04:44] epoch 17 done in 550s ce=0.106 w=0.0000 nuis_corr=0.321 lr=0.0693
+[13:13:54] epoch 18 done in 550s ce=0.108 w=0.0000 nuis_corr=0.294 lr=0.0663
+[13:23:04] epoch 19 done in 550s ce=0.101 w=0.0000 nuis_corr=0.326 lr=0.0631
+[13:32:14] epoch 20 done in 550s ce=0.101 w=0.0000 nuis_corr=0.305 lr=0.0599
+[13:41:24] epoch 21 done in 550s ce=0.096 w=0.0000 nuis_corr=0.315 lr=0.0567
+[13:50:34] epoch 22 done in 550s ce=0.096 w=0.0000 nuis_corr=0.308 lr=0.0534
+[13:59:43] epoch 23 done in 549s ce=0.092 w=0.0000 nuis_corr=0.300 lr=0.0502
+[13:59:58]   EVAL epoch 23: KITTI mIoU=26.78  STF mIoU=21.50
+[14:09:05] epoch 24 done in 548s ce=0.094 w=0.0000 nuis_corr=0.315 lr=0.0469
+[14:18:12] epoch 25 done in 547s ce=0.089 w=0.0000 nuis_corr=0.331 lr=0.0436
+[14:27:20] epoch 26 done in 548s ce=0.088 w=0.0000 nuis_corr=0.297 lr=0.0404
+[14:36:28] epoch 27 done in 548s ce=0.080 w=0.0000 nuis_corr=0.305 lr=0.0372
+[14:45:35] epoch 28 done in 547s ce=0.081 w=0.0000 nuis_corr=0.294 lr=0.0341
+[14:54:43] epoch 29 done in 547s ce=0.078 w=0.0000 nuis_corr=0.308 lr=0.0310
+[15:03:51] epoch 30 done in 548s ce=0.079 w=0.0000 nuis_corr=0.297 lr=0.0280
+[15:12:59] epoch 31 done in 548s ce=0.073 w=0.0000 nuis_corr=0.292 lr=0.0251
+[15:13:13]   EVAL epoch 31: KITTI mIoU=30.57  STF mIoU=21.94
+[15:22:21] epoch 32 done in 547s ce=0.071 w=0.0000 nuis_corr=0.331 lr=0.0223
+[15:31:29] epoch 33 done in 548s ce=0.074 w=0.0000 nuis_corr=0.349 lr=0.0196
+[15:40:36] epoch 34 done in 548s ce=0.068 w=0.0000 nuis_corr=0.331 lr=0.0171
+[15:49:45] epoch 35 done in 548s ce=0.065 w=0.0000 nuis_corr=0.336 lr=0.0147
+[15:58:52] epoch 36 done in 547s ce=0.064 w=0.0000 nuis_corr=0.330 lr=0.0125
+[16:07:59] epoch 37 done in 547s ce=0.063 w=0.0000 nuis_corr=0.302 lr=0.0104
+[16:17:07] epoch 38 done in 547s ce=0.062 w=0.0000 nuis_corr=0.327 lr=0.0085
+[16:26:14] epoch 39 done in 548s ce=0.060 w=0.0000 nuis_corr=0.312 lr=0.0067
+[16:26:29]   EVAL epoch 39: KITTI mIoU=27.56  STF mIoU=20.61
+[16:35:37] epoch 40 done in 548s ce=0.059 w=0.0000 nuis_corr=0.331 lr=0.0052
+[16:44:44] epoch 41 done in 547s ce=0.058 w=0.0000 nuis_corr=0.287 lr=0.0038
+[16:53:51] epoch 42 done in 547s ce=0.057 w=0.0000 nuis_corr=0.327 lr=0.0027
+[17:02:59] epoch 43 done in 548s ce=0.056 w=0.0000 nuis_corr=0.326 lr=0.0017
+[17:12:08] epoch 44 done in 549s ce=0.056 w=0.0000 nuis_corr=0.295 lr=0.0010
+[17:21:17] epoch 45 done in 549s ce=0.056 w=0.0000 nuis_corr=0.334 lr=0.0004
+[17:30:27] epoch 46 done in 549s ce=0.055 w=0.0000 nuis_corr=0.320 lr=0.0001
+[17:39:36] epoch 47 done in 549s ce=0.055 w=0.0000 nuis_corr=0.309 lr=0.0000
+[17:39:51]   EVAL epoch 47: KITTI mIoU=27.96  STF mIoU=20.88
+[17:39:51] training complete
+[kitti] mIoU=29.92  nuis_corr=0.24305318035185336
+[stf] mIoU=20.87  nuis_corr=0.25753250923007726

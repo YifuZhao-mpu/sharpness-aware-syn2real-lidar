@@ -1,0 +1,44 @@
+{
+  "run": "weather_s1",
+  "cr": 0.5,
+  "n_scans": 500,
+  "intensity_scale": 0.00392156862745098,
+  "intensity_peek": {
+    "file": "000001.bin",
+    "ncols": 4,
+    "inten_min": 1.0,
+    "inten_max": 255.0
+  },
+  "asis": {
+    "mIoU": 0.41165068618907574,
+    "per_class": {
+      "person": 42.17,
+      "rider": 44.11,
+      "car": 36.47,
+      "trunk": 36.76,
+      "plants": 69.54,
+      "traffic-sign": 14.26,
+      "pole": 34.23,
+      "building": 68.94,
+      "fence": 25.05,
+      "bike": 9.44,
+      "ground": 71.85
+    }
+  },
+  "bn_recalib": {
+    "mIoU": 0.3856421016890632,
+    "per_class": {
+      "person": 37.97,
+      "rider": 39.36,
+      "car": 34.82,
+      "trunk": 30.63,
+      "plants": 67.36,
+      "traffic-sign": 17.24,
+      "pole": 32.82,
+      "building": 62.48,
+      "fence": 22.43,
+      "bike": 9.83,
+      "ground": 69.28
+    }
+  }
+}

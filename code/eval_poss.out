@@ -1,0 +1,47 @@
+[06:53:47] intensity peek {'file': '000001.bin', 'ncols': 4, 'inten_min': 1.0, 'inten_max': 255.0} -> scale 0.00392156862745098
+[06:53:47] SemanticPOSS seq03: 500 scans; 44 checkpoints
+[06:54:43] cr1_none_s1: POSS mIoU 41.97 | BN-recal 40.78
+[06:55:39] cr1_none_s2: POSS mIoU 40.45 | BN-recal 39.32
+[06:56:35] cr1_none_s3: POSS mIoU 39.90 | BN-recal 39.23
+[06:57:31] cr1_sam_s1: POSS mIoU 43.79 | BN-recal 42.91
+[06:58:27] cr1_sam_s2: POSS mIoU 42.82 | BN-recal 41.79
+[06:58:51] dr_full_s1: POSS mIoU 37.30 | BN-recal 35.86
+[06:59:14] lasermix_s1: POSS mIoU 41.61 | BN-recal 39.96
+[06:59:37] neg_consist_main: POSS mIoU 41.66 | BN-recal 39.86
+[07:00:01] neg_whiten_main: POSS mIoU 41.17 | BN-recal 40.01
+[07:00:24] none_full: POSS mIoU 38.78 | BN-recal 37.25
+[07:00:47] none_long_s1: POSS mIoU 39.68 | BN-recal 38.84
+[07:01:10] none_s2: POSS mIoU 39.09 | BN-recal 37.87
+[07:01:33] none_s3: POSS mIoU 39.04 | BN-recal 37.02
+[07:01:56] pointdr_s1: POSS mIoU 40.32 | BN-recal 39.20
+[07:02:19] pointdr_s2: POSS mIoU 40.80 | BN-recal 38.23
+[07:02:43] pointdr_s3: POSS mIoU 39.51 | BN-recal 37.24
+[07:03:06] polarmix_s1: POSS mIoU 39.04 | BN-recal 37.45
+[07:03:29] polarmix_s2: POSS mIoU 37.65 | BN-recal 35.86
+[07:03:52] polarmix_s3: POSS mIoU 38.19 | BN-recal 36.13
+[07:04:15] sac05_full: POSS mIoU 31.99 | BN-recal 33.29
+[07:04:38] sac05fix_full: POSS mIoU 4.84 | BN-recal 34.79
+[07:05:01] sam001_s1: POSS mIoU 40.16 | BN-recal 39.02
+[07:05:24] sam005_full: POSS mIoU 41.49 | BN-recal 40.59
+[07:05:47] sam005_s2: POSS mIoU 43.32 | BN-recal 41.51
+[07:06:10] sam005_s3: POSS mIoU 39.94 | BN-recal 37.97
+[07:06:34] sam010_s1: POSS mIoU 43.78 | BN-recal 42.19
+[07:06:57] sam020_s1: POSS mIoU 43.38 | BN-recal 41.54
+[07:07:20] samdr_s1: POSS mIoU 40.95 | BN-recal 39.41
+[07:07:43] sampolar010_s1: POSS mIoU 42.67 | BN-recal 39.36
+[07:08:06] sampolar_s1: POSS mIoU 40.84 | BN-recal 37.17
+[07:08:30] sampolar_s2: POSS mIoU 41.00 | BN-recal 38.62
+[07:08:53] sampolar_s3: POSS mIoU 41.78 | BN-recal 39.70
+[07:09:16] sampolarlm_s1: POSS mIoU 39.56 | BN-recal 36.88
+[07:09:39] samsens_s1: POSS mIoU 42.13 | BN-recal 40.88
+[07:10:02] samsens_s2: POSS mIoU 40.82 | BN-recal 39.25
+[07:10:25] samwmix_s1: POSS mIoU 41.44 | BN-recal 37.27
+[07:10:48] samwmix_s2: POSS mIoU 41.39 | BN-recal 38.09
+[07:11:11] swa_s1: POSS mIoU 39.44 | BN-recal 38.07
+[07:11:34] swa_s2: POSS mIoU 39.02 | BN-recal 37.85
+[07:11:57] swa_s3: POSS mIoU 39.67 | BN-recal 38.74
+[07:12:21] weather_s1: POSS mIoU 41.17 | BN-recal 38.56
+[07:12:44] wmix_s1: POSS mIoU 40.35 | BN-recal 37.91
+[07:13:07] wmix_s2: POSS mIoU 40.44 | BN-recal 37.19
+[07:13:30] wmix_s3: POSS mIoU 40.39 | BN-recal 37.97
+[07:13:30] sealed evaluation complete

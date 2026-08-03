@@ -1,0 +1,8 @@
+{
+  "ckpt": "exp/swa_s2/model.pth",
+  "rho": 0.05,
+  "base_loss": 0.13356796155373254,
+  "sharpness_mean": 0.040637129296859115,
+  "sharpness_std": 0.008339238965324644,
+  "n_dirs": 5
+}

@@ -1,0 +1,44 @@
+{
+  "run": "sampolar_s2",
+  "cr": 0.5,
+  "n_scans": 500,
+  "intensity_scale": 0.00392156862745098,
+  "intensity_peek": {
+    "file": "000001.bin",
+    "ncols": 4,
+    "inten_min": 1.0,
+    "inten_max": 255.0
+  },
+  "asis": {
+    "mIoU": 0.4100273680133448,
+    "per_class": {
+      "person": 46.59,
+      "rider": 44.28,
+      "car": 17.95,
+      "trunk": 35.47,
+      "plants": 65.02,
+      "traffic-sign": 13.51,
+      "pole": 38.58,
+      "building": 66.76,
+      "fence": 28.56,
+      "bike": 21.1,
+      "ground": 73.21
+    }
+  },
+  "bn_recalib": {
+    "mIoU": 0.38621860107000744,
+    "per_class": {
+      "person": 37.08,
+      "rider": 40.11,
+      "car": 18.28,
+      "trunk": 31.23,
+      "plants": 65.28,
+      "traffic-sign": 13.66,
+      "pole": 37.63,
+      "building": 60.43,
+      "fence": 24.89,
+      "bike": 23.23,
+      "ground": 73.01
+    }
+  }
+}

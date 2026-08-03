@@ -1,0 +1,8 @@
+{
+  "ckpt": "/home/zyf/paper/Syn2Real-LiDAR-DG/code/exp/sampolar010_s1/model.pth",
+  "rho": 0.05,
+  "base_loss": 0.22445757314562798,
+  "sharpness_mean": 0.01837295945733785,
+  "sharpness_std": 0.014788964330256178,
+  "n_dirs": 8
+}

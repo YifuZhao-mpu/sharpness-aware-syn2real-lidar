@@ -1,0 +1,44 @@
+{
+  "run": "swa_s2",
+  "cr": 0.5,
+  "n_scans": 500,
+  "intensity_scale": 0.00392156862745098,
+  "intensity_peek": {
+    "file": "000001.bin",
+    "ncols": 4,
+    "inten_min": 1.0,
+    "inten_max": 255.0
+  },
+  "asis": {
+    "mIoU": 0.3902343838436115,
+    "per_class": {
+      "person": 46.39,
+      "rider": 43.69,
+      "car": 29.68,
+      "trunk": 31.16,
+      "plants": 69.66,
+      "traffic-sign": 9.06,
+      "pole": 33.6,
+      "building": 65.74,
+      "fence": 16.94,
+      "bike": 10.78,
+      "ground": 72.56
+    }
+  },
+  "bn_recalib": {
+    "mIoU": 0.3784946779984653,
+    "per_class": {
+      "person": 43.21,
+      "rider": 41.46,
+      "car": 27.78,
+      "trunk": 30.02,
+      "plants": 68.8,
+      "traffic-sign": 10.68,
+      "pole": 33.62,
+      "building": 63.8,
+      "fence": 14.56,
+      "bike": 10.68,
+      "ground": 71.73
+    }
+  }
+}

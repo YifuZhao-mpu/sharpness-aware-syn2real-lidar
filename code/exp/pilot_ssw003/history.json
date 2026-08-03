@@ -1,0 +1,104 @@
+[
+  {
+    "epoch": 3,
+    "kitti": {
+      "mIoU": 0.21017423287313944,
+      "per_class": {
+        "car": 22.21,
+        "bicycle": 2.24,
+        "motorcycle": 0.0,
+        "truck": 0.0,
+        "other-vehicle": 17.81,
+        "person": 14.64,
+        "bicyclist": 50.09,
+        "motorcyclist": 0.0,
+        "road": 8.77,
+        "parking": 0.07,
+        "sidewalk": 26.14,
+        "other-ground": 0.0,
+        "building": 70.53,
+        "fence": 6.66,
+        "vegetation": 69.29,
+        "trunk": 50.61,
+        "terrain": 31.14,
+        "pole": 25.91,
+        "traffic-sign": 3.21
+      }
+    },
+    "stf": {
+      "mIoU": 0.14314769699658458,
+      "per_class": {
+        "car": 10.03,
+        "bicycle": 0.05,
+        "motorcycle": 2.42,
+        "truck": 9.83,
+        "other-vehicle": 2.83,
+        "person": 17.15,
+        "bicyclist": 1.6,
+        "motorcyclist": 0.77,
+        "road": 11.15,
+        "parking": 0.0,
+        "sidewalk": 16.43,
+        "other-ground": 0.16,
+        "building": 56.33,
+        "fence": 24.25,
+        "vegetation": 45.87,
+        "trunk": 17.86,
+        "terrain": 31.38,
+        "pole": 23.71,
+        "traffic-sign": 0.15
+      }
+    }
+  },
+  {
+    "epoch": 7,
+    "kitti": {
+      "mIoU": 0.2456283304464896,
+      "per_class": {
+        "car": 55.52,
+        "bicycle": 4.55,
+        "motorcycle": 0.1,
+        "truck": 0.0,
+        "other-vehicle": 9.41,
+        "person": 19.84,
+        "bicyclist": 41.7,
+        "motorcyclist": 0.0,
+        "road": 31.2,
+        "parking": 0.3,
+        "sidewalk": 27.17,
+        "other-ground": 0.19,
+        "building": 66.82,
+        "fence": 9.8,
+        "vegetation": 71.88,
+        "trunk": 48.54,
+        "terrain": 26.92,
+        "pole": 33.78,
+        "traffic-sign": 18.96
+      }
+    },
+    "stf": {
+      "mIoU": 0.1859080073750747,
+      "per_class": {
+        "car": 37.6,
+        "bicycle": 1.57,
+        "motorcycle": 3.23,
+        "truck": 13.09,
+        "other-vehicle": 0.19,
+        "person": 24.0,
+        "bicyclist": 1.88,
+        "motorcyclist": 3.7,
+        "road": 38.25,
+        "parking": 7.97,
+        "sidewalk": 18.89,
+        "other-ground": 2.65,
+        "building": 57.39,
+        "fence": 18.34,
+        "vegetation": 49.75,
+        "trunk": 19.3,
+        "terrain": 23.71,
+        "pole": 24.14,
+        "traffic-sign": 7.58
+      }
+    }
+  }
+]

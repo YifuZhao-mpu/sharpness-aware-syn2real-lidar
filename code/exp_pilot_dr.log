@@ -1,0 +1,17 @@
+[22:31:15] SynLiDAR source scans: 9920  mode=none lambda_w=0.0 cr=0.5
+[22:33:20] epoch 0 done in 125s ce=0.777 w=0.0000 nuis_corr=0.423 lr=0.0987
+[22:35:22] epoch 1 done in 122s ce=0.466 w=0.0000 nuis_corr=0.416 lr=0.0940
+[22:37:25] epoch 2 done in 123s ce=0.358 w=0.0000 nuis_corr=0.431 lr=0.0862
+[22:39:35] epoch 3 done in 130s ce=0.312 w=0.0000 nuis_corr=0.428 lr=0.0759
+[22:39:49]   EVAL epoch 3: KITTI mIoU=25.36  STF mIoU=19.79
+[22:43:15] epoch 4 done in 206s ce=0.265 w=0.0000 nuis_corr=0.505 lr=0.0638
+[22:47:32] epoch 5 done in 256s ce=0.218 w=0.0000 nuis_corr=0.433 lr=0.0508
+[22:51:48] epoch 6 done in 256s ce=0.192 w=0.0000 nuis_corr=0.536 lr=0.0377
+[22:56:05] epoch 7 done in 257s ce=0.174 w=0.0000 nuis_corr=0.483 lr=0.0255
+[22:56:42]   EVAL epoch 7: KITTI mIoU=23.02  STF mIoU=18.83
+[23:00:59] epoch 8 done in 256s ce=0.153 w=0.0000 nuis_corr=0.506 lr=0.0149
+[23:05:16] epoch 9 done in 257s ce=0.140 w=0.0000 nuis_corr=0.500 lr=0.0068
+[23:09:32] epoch 10 done in 257s ce=0.131 w=0.0000 nuis_corr=0.479 lr=0.0017
+[23:13:49] epoch 11 done in 257s ce=0.126 w=0.0000 nuis_corr=0.496 lr=0.0000
+[23:14:27]   EVAL epoch 11: KITTI mIoU=24.94  STF mIoU=18.81
+[23:14:27] training complete

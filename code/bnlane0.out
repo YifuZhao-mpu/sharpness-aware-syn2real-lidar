@@ -1,0 +1,15 @@
+[06:42:57] calibration stream: 804 scans (stride 247), bs 4, unaugmented, deterministic
+[06:44:10] none_full VERIFY stored K=25.91 S=19.93 | re-eval K=25.91 S=19.93
+[06:44:16] none_full: BN recalibrated over 201 batches in 5s
+[06:45:29] none_full: K 25.91 -> 24.35 (-1.56) | S 19.93 -> 18.76 (-1.17)  -> /home/zyf/paper/Syn2Real-LiDAR-DG（cvpr2027）/code/exp/none_full/bn_recalib.json
+[06:45:32] calibration stream: 804 scans (stride 247), bs 4, unaugmented, deterministic
+[06:45:38] none_s2: BN recalibrated over 201 batches in 5s
+[06:46:53] none_s2: K 27.66 -> 26.78 (-0.88) | S 20.54 -> 18.90 (-1.64)  -> /home/zyf/paper/Syn2Real-LiDAR-DG（cvpr2027）/code/exp/none_s2/bn_recalib.json
+[06:46:58] none_s3: BN recalibrated over 201 batches in 5s
+[06:48:12] none_s3: K 29.25 -> 27.80 (-1.45) | S 22.22 -> 20.80 (-1.42)  -> /home/zyf/paper/Syn2Real-LiDAR-DG（cvpr2027）/code/exp/none_s3/bn_recalib.json
+[06:48:18] sam005_full: BN recalibrated over 201 batches in 5s
+[06:49:33] sam005_full: K 28.96 -> 28.50 (-0.46) | S 21.56 -> 20.19 (-1.37)  -> /home/zyf/paper/Syn2Real-LiDAR-DG（cvpr2027）/code/exp/sam005_full/bn_recalib.json
+[06:49:38] sam005_s2: BN recalibrated over 201 batches in 6s
+[06:50:53] sam005_s2: K 29.92 -> 28.98 (-0.94) | S 20.87 -> 19.63 (-1.24)  -> /home/zyf/paper/Syn2Real-LiDAR-DG（cvpr2027）/code/exp/sam005_s2/bn_recalib.json
+[06:50:59] sam005_s3: BN recalibrated over 201 batches in 5s
+[06:52:13] sam005_s3: K 30.00 -> 29.18 (-0.82) | S 22.71 -> 21.48 (-1.23)  -> /home/zyf/paper/Syn2Real-LiDAR-DG（cvpr2027）/code/exp/sam005_s3/bn_recalib.json

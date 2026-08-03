@@ -1,0 +1,27 @@
+{
+  "mIoU": 0.29625840511538565,
+  "per_class": {
+    "car": 67.11,
+    "bicycle": 10.03,
+    "motorcycle": 14.36,
+    "truck": 1.27,
+    "other-vehicle": 2.65,
+    "person": 23.53,
+    "bicyclist": 58.39,
+    "motorcyclist": 1.86,
+    "road": 61.64,
+    "parking": 12.12,
+    "sidewalk": 37.32,
+    "other-ground": 0.77,
+    "building": 64.37,
+    "fence": 21.97,
+    "vegetation": 62.03,
+    "trunk": 38.17,
+    "terrain": 26.28,
+    "pole": 41.95,
+    "traffic-sign": 17.08
+  },
+  "target": "kitti",
+  "nuisance_corr_target": 0.24509758967906237,
+  "ckpt": "/home/zyf/paper/Syn2Real-LiDAR-DG/code/exp/polarmix_s2/model.pth"
+}

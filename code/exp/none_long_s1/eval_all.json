@@ -1,0 +1,56 @@
+{
+  "kitti": {
+    "mIoU": 0.28019132751037235,
+    "per_class": {
+      "car": 63.42,
+      "bicycle": 8.66,
+      "motorcycle": 14.76,
+      "truck": 1.09,
+      "other-vehicle": 5.36,
+      "person": 31.32,
+      "bicyclist": 47.39,
+      "motorcyclist": 5.01,
+      "road": 33.09,
+      "parking": 9.92,
+      "sidewalk": 33.21,
+      "other-ground": 0.03,
+      "building": 61.33,
+      "fence": 31.89,
+      "vegetation": 71.63,
+      "trunk": 36.37,
+      "terrain": 21.3,
+      "pole": 36.55,
+      "traffic-sign": 20.03
+    },
+    "target": "kitti",
+    "nuisance_corr_target": 0.1500119810923934,
+    "ckpt": "/home/zyf/paper/Syn2Real-LiDAR-DG/code/exp/none_long_s1/model.pth"
+  },
+  "stf": {
+    "mIoU": 0.2111838959491002,
+    "per_class": {
+      "car": 41.46,
+      "bicycle": 0.88,
+      "motorcycle": 2.13,
+      "truck": 18.62,
+      "other-vehicle": 0.55,
+      "person": 31.21,
+      "bicyclist": 3.43,
+      "motorcyclist": 3.25,
+      "road": 30.18,
+      "parking": 12.57,
+      "sidewalk": 18.19,
+      "other-ground": 0.35,
+      "building": 64.49,
+      "fence": 28.97,
+      "vegetation": 53.27,
+      "trunk": 26.01,
+      "terrain": 35.35,
+      "pole": 19.73,
+      "traffic-sign": 10.61
+    },
+    "target": "stf",
+    "nuisance_corr_target": 0.16217253478243948,
+    "ckpt": "/home/zyf/paper/Syn2Real-LiDAR-DG/code/exp/none_long_s1/model.pth"
+  }
+}

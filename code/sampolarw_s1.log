@@ -1,0 +1,20 @@
+[07:03:25] SynLiDAR source scans: 19840  mode=none lambda_w=0.0 cr=0.5
+[14:27:12] SynLiDAR source scans: 19840  mode=none lambda_w=0.0 cr=0.5
+[14:37:47] epoch 0 done in 635s ce=0.714 w=0.0000 nuis_corr=0.424 lr=0.0999
+[14:47:25] epoch 1 done in 578s ce=0.432 w=0.0000 nuis_corr=0.371 lr=0.0996
+[14:57:03] epoch 2 done in 578s ce=0.369 w=0.0000 nuis_corr=0.354 lr=0.0991
+[15:06:40] epoch 3 done in 577s ce=0.325 w=0.0000 nuis_corr=0.343 lr=0.0984
+[15:16:20] epoch 4 done in 580s ce=0.289 w=0.0000 nuis_corr=0.349 lr=0.0974
+[15:25:59] epoch 5 done in 580s ce=0.263 w=0.0000 nuis_corr=0.292 lr=0.0963
+[15:35:39] epoch 6 done in 580s ce=0.240 w=0.0000 nuis_corr=0.355 lr=0.0950
+[15:45:19] epoch 7 done in 580s ce=0.224 w=0.0000 nuis_corr=0.304 lr=0.0934
+[15:54:58] epoch 8 done in 579s ce=0.212 w=0.0000 nuis_corr=0.379 lr=0.0917
+[16:04:37] epoch 9 done in 579s ce=0.201 w=0.0000 nuis_corr=0.289 lr=0.0898
+[16:14:17] epoch 10 done in 579s ce=0.193 w=0.0000 nuis_corr=0.348 lr=0.0878
+[16:23:56] epoch 11 done in 579s ce=0.183 w=0.0000 nuis_corr=0.380 lr=0.0855
+[16:24:11]   EVAL epoch 11: KITTI mIoU=16.26  STF mIoU=15.99
+[16:33:52] epoch 12 done in 581s ce=0.178 w=0.0000 nuis_corr=0.325 lr=0.0831
+[16:43:33] epoch 13 done in 581s ce=0.176 w=0.0000 nuis_corr=0.367 lr=0.0806
+[16:53:13] epoch 14 done in 580s ce=0.171 w=0.0000 nuis_corr=0.389 lr=0.0780
+[kitti] mIoU=16.16  nuis_corr=0.2691182345151901
+[stf] mIoU=15.99  nuis_corr=0.2877464698627591

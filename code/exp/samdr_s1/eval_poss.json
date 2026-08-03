@@ -1,0 +1,44 @@
+{
+  "run": "samdr_s1",
+  "cr": 0.5,
+  "n_scans": 500,
+  "intensity_scale": 0.00392156862745098,
+  "intensity_peek": {
+    "file": "000001.bin",
+    "ncols": 4,
+    "inten_min": 1.0,
+    "inten_max": 255.0
+  },
+  "asis": {
+    "mIoU": 0.4095090410326266,
+    "per_class": {
+      "person": 47.25,
+      "rider": 45.91,
+      "car": 34.32,
+      "trunk": 34.65,
+      "plants": 69.24,
+      "traffic-sign": 16.64,
+      "pole": 31.86,
+      "building": 66.77,
+      "fence": 21.33,
+      "bike": 10.4,
+      "ground": 72.09
+    }
+  },
+  "bn_recalib": {
+    "mIoU": 0.39407028153069423,
+    "per_class": {
+      "person": 41.42,
+      "rider": 44.17,
+      "car": 34.77,
+      "trunk": 33.66,
+      "plants": 68.66,
+      "traffic-sign": 13.98,
+      "pole": 32.38,
+      "building": 64.62,
+      "fence": 19.25,
+      "bike": 10.4,
+      "ground": 70.15
+    }
+  }
+}

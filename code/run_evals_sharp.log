@@ -1,0 +1,1 @@
+[23:23:34] GPU1 $ /home/zyf/anaconda3/envs/pointcept/bin/python sharpness.py --ckpt /home/zyf/paper/Syn2Real-LiDAR-DG/code/exp/wmix_s1/model.pth --cr 0.5 --rho 0.05

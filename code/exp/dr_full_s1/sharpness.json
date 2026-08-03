@@ -1,0 +1,8 @@
+{
+  "ckpt": "exp/dr_full_s1/model.pth",
+  "rho": 0.05,
+  "base_loss": 0.13888551418979964,
+  "sharpness_mean": 0.10120408634344735,
+  "sharpness_std": 0.049840263152965414,
+  "n_dirs": 5
+}

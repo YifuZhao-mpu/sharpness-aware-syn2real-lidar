@@ -1,0 +1,44 @@
+{
+  "run": "samsens_s2",
+  "cr": 0.5,
+  "n_scans": 500,
+  "intensity_scale": 0.00392156862745098,
+  "intensity_peek": {
+    "file": "000001.bin",
+    "ncols": 4,
+    "inten_min": 1.0,
+    "inten_max": 255.0
+  },
+  "asis": {
+    "mIoU": 0.4081788958724161,
+    "per_class": {
+      "person": 46.09,
+      "rider": 45.28,
+      "car": 39.45,
+      "trunk": 35.89,
+      "plants": 70.04,
+      "traffic-sign": 13.67,
+      "pole": 32.32,
+      "building": 67.76,
+      "fence": 17.8,
+      "bike": 9.2,
+      "ground": 71.49
+    }
+  },
+  "bn_recalib": {
+    "mIoU": 0.39254222989487014,
+    "per_class": {
+      "person": 42.38,
+      "rider": 41.64,
+      "car": 38.31,
+      "trunk": 34.65,
+      "plants": 69.19,
+      "traffic-sign": 13.98,
+      "pole": 31.57,
+      "building": 64.01,
+      "fence": 16.16,
+      "bike": 9.74,
+      "ground": 70.17
+    }
+  }
+}

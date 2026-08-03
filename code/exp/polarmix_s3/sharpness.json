@@ -1,0 +1,8 @@
+{
+  "ckpt": "exp/polarmix_s3/model.pth",
+  "rho": 0.05,
+  "base_loss": 0.13466861099004745,
+  "sharpness_mean": 0.08923174391190211,
+  "sharpness_std": 0.016596219913418055,
+  "n_dirs": 5
+}

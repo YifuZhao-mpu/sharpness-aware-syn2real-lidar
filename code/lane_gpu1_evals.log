@@ -1,0 +1,94 @@
+[00:17:48] GPU1 $ /home/zyf/anaconda3/envs/pointcept/bin/python eval_tta.py --ckpt /home/zyf/paper/Syn2Real-LiDAR-DG/code/exp/sampolar_s1/model.pth --targets stf --cr 0.5 --n_rot 4 --max_scans 0
+[00:18:29] -> rc=0
+[00:18:29] GPU1 $ /home/zyf/anaconda3/envs/pointcept/bin/python eval_tta.py --ckpt /home/zyf/paper/Syn2Real-LiDAR-DG/code/exp/sampolar_s2/model.pth --targets stf --cr 0.5 --n_rot 4 --max_scans 0
+[00:19:09] -> rc=0
+[00:19:09] GPU1 $ /home/zyf/anaconda3/envs/pointcept/bin/python eval_tta.py --ckpt /home/zyf/paper/Syn2Real-LiDAR-DG/code/exp/sampolar_s3/model.pth --targets stf --cr 0.5 --n_rot 4 --max_scans 0
+[00:19:47] -> rc=0
+  skip TTA wmix_s1: ['stf'] done
+[00:19:47] GPU1 $ /home/zyf/anaconda3/envs/pointcept/bin/python eval_tta.py --ckpt /home/zyf/paper/Syn2Real-LiDAR-DG/code/exp/wmix_s2/model.pth --targets stf --cr 0.5 --n_rot 4 --max_scans 0
+[00:20:27] -> rc=0
+  skip TTA wmix_s3: no model.pth
+[00:20:27] GPU1 $ /home/zyf/anaconda3/envs/pointcept/bin/python eval_tta.py --ckpt /home/zyf/paper/Syn2Real-LiDAR-DG/code/exp/none_s2/model.pth --targets stf --cr 0.5 --n_rot 4 --max_scans 0
+[00:21:07] -> rc=0
+[00:21:07] GPU1 $ /home/zyf/anaconda3/envs/pointcept/bin/python eval_tta.py --ckpt /home/zyf/paper/Syn2Real-LiDAR-DG/code/exp/polarmix_s1/model.pth --targets stf --cr 0.5 --n_rot 4 --max_scans 0
+[00:21:45] -> rc=0
+[00:21:45] GPU1 $ /home/zyf/anaconda3/envs/pointcept/bin/python eval_tta.py --ckpt /home/zyf/paper/Syn2Real-LiDAR-DG/code/exp/sam005_s2/model.pth --targets stf --cr 0.5 --n_rot 4 --max_scans 0
+[00:22:25] -> rc=0
+[00:22:25] GPU1 $ /home/zyf/anaconda3/envs/pointcept/bin/python eval_tta.py --ckpt /home/zyf/paper/Syn2Real-LiDAR-DG/code/exp/samwmix_s1/model.pth --targets stf --cr 0.5 --n_rot 4 --max_scans 0
+[00:23:05] -> rc=0
+
+=== TTA summary (train-time mIoU -> +TTA mIoU) ===
+  sampolar_s1        STF 24.68->25.93 (+1.25)
+  sampolar_s2        STF 24.52->26.24 (+1.72)
+  sampolar_s3        STF 25.65->26.46 (+0.81)
+  wmix_s1            STF 25.57->27.17 (+1.59)
+  wmix_s2            STF 23.37->24.84 (+1.47)
+  none_s2            STF 20.54->21.20 (+0.66)
+  polarmix_s1        STF 23.17->24.81 (+1.64)
+  sam005_s2          STF 20.87->21.68 (+0.81)
+  samwmix_s1         STF 25.26->26.59 (+1.34)
+EVALS DONE
+[00:25:41] GPU1 $ /home/zyf/anaconda3/envs/pointcept/bin/python sharpness.py --ckpt /home/zyf/paper/Syn2Real-LiDAR-DG/code/exp/wmix_s1/model.pth --cr 0.5 --rho 0.05
+[00:25:51] -> rc=0
+[00:25:51] GPU1 $ /home/zyf/anaconda3/envs/pointcept/bin/python sharpness.py --ckpt /home/zyf/paper/Syn2Real-LiDAR-DG/code/exp/wmix_s2/model.pth --cr 0.5 --rho 0.05
+[00:26:00] -> rc=0
+  skip sharp wmix_s3: no model.pth
+[00:26:00] GPU1 $ /home/zyf/anaconda3/envs/pointcept/bin/python sharpness.py --ckpt /home/zyf/paper/Syn2Real-LiDAR-DG/code/exp/samwmix_s1/model.pth --cr 0.5 --rho 0.05
+[00:26:09] -> rc=0
+[00:26:09] GPU1 $ /home/zyf/anaconda3/envs/pointcept/bin/python sharpness.py --ckpt /home/zyf/paper/Syn2Real-LiDAR-DG/code/exp/samwmix_s2/model.pth --cr 0.5 --rho 0.05
+[00:26:18] -> rc=0
+[00:26:18] GPU1 $ /home/zyf/anaconda3/envs/pointcept/bin/python sharpness.py --ckpt /home/zyf/paper/Syn2Real-LiDAR-DG/code/exp/sampolarlm_s1/model.pth --cr 0.5 --rho 0.05
+[00:26:27] -> rc=0
+  skip sharp weather_s1: no model.pth
+  skip sharp lasermix_s1: no model.pth
+  skip sharp sampolar010_s1: no model.pth
+  skip sharp sampolar010_s2: no model.pth
+[00:26:27] GPU1 $ /home/zyf/anaconda3/envs/pointcept/bin/python sharpness.py --ckpt /home/zyf/paper/Syn2Real-LiDAR-DG/code/exp/pointdr_s1/model.pth --cr 0.5 --rho 0.05
+[00:26:36] -> rc=0
+[00:26:36] GPU1 $ /home/zyf/anaconda3/envs/pointcept/bin/python sharpness.py --ckpt /home/zyf/paper/Syn2Real-LiDAR-DG/code/exp/pointdr_s3/model.pth --cr 0.5 --rho 0.05
+[00:26:45] -> rc=0
+
+=== TTA summary (train-time mIoU -> +TTA mIoU) ===
+  sampolar_s1        STF 24.68->25.93 (+1.25)
+  sampolar_s2        STF 24.52->26.24 (+1.72)
+  sampolar_s3        STF 25.65->26.46 (+0.81)
+  wmix_s1            STF 25.57->27.17 (+1.59)
+  wmix_s2            STF 23.37->24.84 (+1.47)
+  none_s2            STF 20.54->21.20 (+0.66)
+  polarmix_s1        STF 23.17->24.81 (+1.64)
+  sam005_s2          STF 20.87->21.68 (+0.81)
+  samwmix_s1         STF 25.26->26.59 (+1.34)
+EVALS DONE
+[07:52:59] GPU1 $ /home/zyf/anaconda3/envs/pointcept/bin/python eval_tta.py --ckpt /home/zyf/paper/Syn2Real-LiDAR-DG/code/exp/sampolar_s1/model.pth --targets kitti --cr 0.5 --n_rot 4 --max_scans 0
+[08:07:44] -> rc=0
+[08:07:44] GPU1 $ /home/zyf/anaconda3/envs/pointcept/bin/python eval_tta.py --ckpt /home/zyf/paper/Syn2Real-LiDAR-DG/code/exp/sampolar_s2/model.pth --targets kitti --cr 0.5 --n_rot 4 --max_scans 0
+[08:22:29] -> rc=0
+[08:22:29] GPU1 $ /home/zyf/anaconda3/envs/pointcept/bin/python eval_tta.py --ckpt /home/zyf/paper/Syn2Real-LiDAR-DG/code/exp/sampolar_s3/model.pth --targets kitti --cr 0.5 --n_rot 4 --max_scans 0
+[08:36:46] -> rc=0
+[08:36:46] GPU1 $ /home/zyf/anaconda3/envs/pointcept/bin/python eval_tta.py --ckpt /home/zyf/paper/Syn2Real-LiDAR-DG/code/exp/wmix_s1/model.pth --targets kitti --cr 0.5 --n_rot 4 --max_scans 0
+[08:51:38] -> rc=0
+[08:51:38] GPU1 $ /home/zyf/anaconda3/envs/pointcept/bin/python eval_tta.py --ckpt /home/zyf/paper/Syn2Real-LiDAR-DG/code/exp/wmix_s2/model.pth --targets kitti --cr 0.5 --n_rot 4 --max_scans 0
+[09:06:19] -> rc=0
+[09:06:19] GPU1 $ /home/zyf/anaconda3/envs/pointcept/bin/python eval_tta.py --ckpt /home/zyf/paper/Syn2Real-LiDAR-DG/code/exp/wmix_s3/model.pth --targets kitti --cr 0.5 --n_rot 4 --max_scans 0
+[09:21:02] -> rc=0
+[09:21:02] GPU1 $ /home/zyf/anaconda3/envs/pointcept/bin/python eval_tta.py --ckpt /home/zyf/paper/Syn2Real-LiDAR-DG/code/exp/none_s2/model.pth --targets kitti --cr 0.5 --n_rot 4 --max_scans 0
+[09:35:38] -> rc=0
+[09:35:38] GPU1 $ /home/zyf/anaconda3/envs/pointcept/bin/python eval_tta.py --ckpt /home/zyf/paper/Syn2Real-LiDAR-DG/code/exp/polarmix_s1/model.pth --targets kitti --cr 0.5 --n_rot 4 --max_scans 0
+[09:50:10] -> rc=0
+[09:50:10] GPU1 $ /home/zyf/anaconda3/envs/pointcept/bin/python eval_tta.py --ckpt /home/zyf/paper/Syn2Real-LiDAR-DG/code/exp/sam005_s2/model.pth --targets kitti --cr 0.5 --n_rot 4 --max_scans 0
+[10:04:40] -> rc=0
+[10:04:40] GPU1 $ /home/zyf/anaconda3/envs/pointcept/bin/python eval_tta.py --ckpt /home/zyf/paper/Syn2Real-LiDAR-DG/code/exp/samwmix_s1/model.pth --targets kitti --cr 0.5 --n_rot 4 --max_scans 0
+[10:19:17] -> rc=0
+
+=== TTA summary (train-time mIoU -> +TTA mIoU) ===
+  sampolar_s1        KITTI 29.64->31.19 (+1.55)   STF 24.68->25.93 (+1.25)
+  sampolar_s2        KITTI 30.63->32.14 (+1.51)   STF 24.52->26.24 (+1.72)
+  sampolar_s3        KITTI 30.87->32.12 (+1.24)   STF 25.65->26.46 (+0.81)
+  wmix_s1            KITTI 28.48->30.42 (+1.95)   STF 25.57->27.17 (+1.59)
+  wmix_s2            KITTI 28.52->30.12 (+1.60)   STF 23.37->24.84 (+1.47)
+  wmix_s3            KITTI 28.28->30.33 (+2.05)   STF 24.56->26.25 (+1.70)
+  none_s2            KITTI 27.66->28.90 (+1.24)   STF 20.54->21.20 (+0.66)
+  polarmix_s1        KITTI 28.73->30.51 (+1.79)   STF 23.17->24.81 (+1.64)
+  sam005_s2          KITTI 29.92->30.71 (+0.79)   STF 20.87->21.68 (+0.81)
+  samwmix_s1         KITTI 28.97->30.35 (+1.39)   STF 25.26->26.59 (+1.34)
+EVALS DONE

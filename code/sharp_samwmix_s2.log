@@ -1,0 +1,8 @@
+{
+  "ckpt": "/home/zyf/paper/Syn2Real-LiDAR-DG/code/exp/samwmix_s2/model.pth",
+  "rho": 0.05,
+  "base_loss": 0.11610204509148996,
+  "sharpness_mean": 0.020736700001483154,
+  "sharpness_std": 0.006703741050980218,
+  "n_dirs": 8
+}

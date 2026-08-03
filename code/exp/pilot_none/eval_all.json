@@ -1,0 +1,29 @@
+{
+  "stf": {
+    "mIoU": 0.1902742410303754,
+    "per_class": {
+      "car": 33.71,
+      "bicycle": 2.1,
+      "motorcycle": 2.43,
+      "truck": 14.91,
+      "other-vehicle": 2.14,
+      "person": 28.53,
+      "bicyclist": 2.52,
+      "motorcyclist": 1.66,
+      "road": 26.49,
+      "parking": 5.02,
+      "sidewalk": 17.82,
+      "other-ground": 0.96,
+      "building": 63.4,
+      "fence": 18.56,
+      "vegetation": 51.0,
+      "trunk": 22.25,
+      "terrain": 32.74,
+      "pole": 25.79,
+      "traffic-sign": 9.5
+    },
+    "target": "stf",
+    "nuisance_corr_target": 0.30866516176611186,
+    "ckpt": "exp/pilot_none/model.pth"
+  }
+}

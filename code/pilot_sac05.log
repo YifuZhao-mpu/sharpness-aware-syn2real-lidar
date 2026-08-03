@@ -1,0 +1,11 @@
+[22:38:56] SynLiDAR source scans: 9920  mode=none lambda_w=0.0 cr=0.5
+Traceback (most recent call last):
+  File "/home/zyf/paper/Syn2Real-LiDAR-DG/code/train.py", line 229, in <module>
+    main()
+  File "/home/zyf/paper/Syn2Real-LiDAR-DG/code/train.py", line 203, in main
+    run_nc = nuisance_corr(core.capture["stem"].float(), vbatch, vnuis)
+  File "/home/zyf/anaconda3/envs/pointcept/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/zyf/paper/Syn2Real-LiDAR-DG/code/whitening.py", line 61, in nuisance_corr
+    F = feats[m]
+IndexError: The shape of the mask [285255] at index 0 does not match the shape of the indexed tensor [229448, 16] at index 0

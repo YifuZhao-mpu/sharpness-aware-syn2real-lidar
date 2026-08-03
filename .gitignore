@@ -1,0 +1,19 @@
+# Trained checkpoints are distributed separately (2.6 GB; SHA-256 hashes are
+# recorded in POSS_FREEZE_MANIFEST.md).
+*.pth
+*.ckpt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+*.egg-info/
+
+# Datasets are not redistributed; see README.
+data/
+datasets/*/sequences/
+
+# Editor / OS
+.DS_Store
+*.swp

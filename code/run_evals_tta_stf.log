@@ -1,0 +1,1 @@
+[23:23:32] GPU0 $ /home/zyf/anaconda3/envs/pointcept/bin/python eval_tta.py --ckpt /home/zyf/paper/Syn2Real-LiDAR-DG/code/exp/sampolar_s1/model.pth --targets stf --cr 0.5 --n_rot 4 --max_scans 0

@@ -1,0 +1,27 @@
+{
+  "mIoU": 0.2813934114601155,
+  "per_class": {
+    "car": 68.35,
+    "bicycle": 6.5,
+    "motorcycle": 20.34,
+    "truck": 1.29,
+    "other-vehicle": 7.2,
+    "person": 33.83,
+    "bicyclist": 47.77,
+    "motorcyclist": 7.19,
+    "road": 32.65,
+    "parking": 8.22,
+    "sidewalk": 33.16,
+    "other-ground": 0.13,
+    "building": 61.93,
+    "fence": 31.02,
+    "vegetation": 73.68,
+    "trunk": 32.58,
+    "terrain": 19.95,
+    "pole": 33.85,
+    "traffic-sign": 15.0
+  },
+  "target": "kitti",
+  "nuisance_corr_target": 0.05619730860926211,
+  "ckpt": "exp/neg_whiten_main/model.pth"
+}

@@ -1,0 +1,8 @@
+{
+  "ckpt": "exp/pointdr_s3/model.pth",
+  "rho": 0.05,
+  "base_loss": 0.07905762642621994,
+  "sharpness_mean": 0.16159282525380453,
+  "sharpness_std": 0.04552352338536657,
+  "n_dirs": 5
+}

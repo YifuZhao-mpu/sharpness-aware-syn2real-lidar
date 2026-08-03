@@ -1,0 +1,155 @@
+[
+  {
+    "epoch": 3,
+    "kitti": {
+      "mIoU": 0.25359635416350773,
+      "per_class": {
+        "car": 56.45,
+        "bicycle": 0.26,
+        "motorcycle": 0.19,
+        "truck": 0.0,
+        "other-vehicle": 18.34,
+        "person": 14.92,
+        "bicyclist": 75.74,
+        "motorcyclist": 0.0,
+        "road": 45.79,
+        "parking": 0.03,
+        "sidewalk": 25.27,
+        "other-ground": 0.0,
+        "building": 72.96,
+        "fence": 7.92,
+        "vegetation": 71.94,
+        "trunk": 46.43,
+        "terrain": 19.86,
+        "pole": 20.51,
+        "traffic-sign": 5.22
+      }
+    },
+    "stf": {
+      "mIoU": 0.19785353503203962,
+      "per_class": {
+        "car": 33.88,
+        "bicycle": 0.08,
+        "motorcycle": 5.25,
+        "truck": 11.74,
+        "other-vehicle": 4.06,
+        "person": 25.38,
+        "bicyclist": 3.48,
+        "motorcyclist": 3.38,
+        "road": 50.11,
+        "parking": 2.27,
+        "sidewalk": 19.34,
+        "other-ground": 0.0,
+        "building": 65.43,
+        "fence": 28.38,
+        "vegetation": 56.87,
+        "trunk": 20.71,
+        "terrain": 12.89,
+        "pole": 29.25,
+        "traffic-sign": 3.45
+      }
+    }
+  },
+  {
+    "epoch": 7,
+    "kitti": {
+      "mIoU": 0.23021811142082976,
+      "per_class": {
+        "car": 57.14,
+        "bicycle": 9.97,
+        "motorcycle": 0.09,
+        "truck": 0.0,
+        "other-vehicle": 6.69,
+        "person": 15.98,
+        "bicyclist": 65.77,
+        "motorcyclist": 0.0,
+        "road": 11.93,
+        "parking": 0.01,
+        "sidewalk": 25.06,
+        "other-ground": 0.07,
+        "building": 57.1,
+        "fence": 6.67,
+        "vegetation": 72.82,
+        "trunk": 47.63,
+        "terrain": 24.93,
+        "pole": 24.42,
+        "traffic-sign": 11.14
+      }
+    },
+    "stf": {
+      "mIoU": 0.1882558799294406,
+      "per_class": {
+        "car": 32.43,
+        "bicycle": 2.45,
+        "motorcycle": 4.96,
+        "truck": 13.11,
+        "other-vehicle": 0.09,
+        "person": 24.92,
+        "bicyclist": 2.3,
+        "motorcyclist": 4.65,
+        "road": 41.24,
+        "parking": 3.86,
+        "sidewalk": 18.68,
+        "other-ground": 3.85,
+        "building": 60.44,
+        "fence": 15.55,
+        "vegetation": 53.46,
+        "trunk": 23.35,
+        "terrain": 20.05,
+        "pole": 26.37,
+        "traffic-sign": 5.95
+      }
+    }
+  },
+  {
+    "epoch": 11,
+    "kitti": {
+      "mIoU": 0.24938823055471473,
+      "per_class": {
+        "car": 60.31,
+        "bicycle": 6.26,
+        "motorcycle": 0.12,
+        "truck": 0.0,
+        "other-vehicle": 0.71,
+        "person": 18.59,
+        "bicyclist": 74.31,
+        "motorcyclist": 0.0,
+        "road": 9.52,
+        "parking": 0.12,
+        "sidewalk": 25.41,
+        "other-ground": 0.0,
+        "building": 65.97,
+        "fence": 12.54,
+        "vegetation": 77.59,
+        "trunk": 50.39,
+        "terrain": 28.08,
+        "pole": 27.93,
+        "traffic-sign": 15.97
+      }
+    },
+    "stf": {
+      "mIoU": 0.18806540346210562,
+      "per_class": {
+        "car": 27.14,
+        "bicycle": 1.23,
+        "motorcycle": 2.63,
+        "truck": 13.18,
+        "other-vehicle": 0.25,
+        "person": 26.89,
+        "bicyclist": 2.31,
+        "motorcyclist": 1.31,
+        "road": 32.7,
+        "parking": 7.12,
+        "sidewalk": 18.9,
+        "other-ground": 3.2,
+        "building": 64.5,
+        "fence": 19.88,
+        "vegetation": 54.72,
+        "trunk": 23.24,
+        "terrain": 23.41,
+        "pole": 27.96,
+        "traffic-sign": 6.75
+      }
+    }
+  }
+]

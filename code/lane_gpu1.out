@@ -1,0 +1,12 @@
+[2026-06-04 00:17:48] LANE_GPU1 START
+[2026-06-04 00:17:48] TTA-STF batch
+[2026-06-04 00:23:05] EVAL sampolarw_s1
+[2026-06-04 00:24:24] EVAL polarw_s1
+[2026-06-04 00:25:41] SHARPNESS batch
+[2026-06-04 00:26:45] TRAIN weather_s1 :: --weather --seed 1
+[2026-06-04 04:08:59] DONE weather_s1
+[2026-06-04 04:08:59] TRAIN lasermix_s1 :: --lasermix --seed 1
+[2026-06-04 07:49:39] DONE lasermix_s1
+[2026-06-04 07:49:39] LANE_GPU1 COMPLETE
+[2026-06-04 10:19:17] DONE kitti-tta-batch
+[2026-06-04 10:19:17] LANE_GPU1B COMPLETE

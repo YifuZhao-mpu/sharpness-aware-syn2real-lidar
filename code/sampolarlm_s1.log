@@ -1,0 +1,56 @@
+[02:58:54] SynLiDAR source scans: 19840  mode=none lambda_w=0.0 cr=0.5
+[03:08:27] epoch 0 done in 572s ce=0.746 w=0.0000 nuis_corr=0.348 lr=0.0999
+[03:17:57] epoch 1 done in 570s ce=0.525 w=0.0000 nuis_corr=0.369 lr=0.0996
+[03:27:26] epoch 2 done in 570s ce=0.475 w=0.0000 nuis_corr=0.332 lr=0.0991
+[03:36:55] epoch 3 done in 569s ce=0.431 w=0.0000 nuis_corr=0.322 lr=0.0984
+[03:46:24] epoch 4 done in 569s ce=0.381 w=0.0000 nuis_corr=0.321 lr=0.0974
+[03:55:53] epoch 5 done in 569s ce=0.349 w=0.0000 nuis_corr=0.312 lr=0.0963
+[04:05:22] epoch 6 done in 568s ce=0.319 w=0.0000 nuis_corr=0.365 lr=0.0950
+[04:14:50] epoch 7 done in 569s ce=0.294 w=0.0000 nuis_corr=0.348 lr=0.0934
+[04:24:20] epoch 8 done in 570s ce=0.274 w=0.0000 nuis_corr=0.370 lr=0.0917
+[04:33:49] epoch 9 done in 569s ce=0.265 w=0.0000 nuis_corr=0.392 lr=0.0898
+[04:43:17] epoch 10 done in 569s ce=0.258 w=0.0000 nuis_corr=0.379 lr=0.0878
+[04:52:46] epoch 11 done in 569s ce=0.247 w=0.0000 nuis_corr=0.356 lr=0.0855
+[04:53:01]   EVAL epoch 11: KITTI mIoU=24.17  STF mIoU=20.36
+[05:02:30] epoch 12 done in 569s ce=0.238 w=0.0000 nuis_corr=0.367 lr=0.0831
+[05:11:58] epoch 13 done in 569s ce=0.233 w=0.0000 nuis_corr=0.386 lr=0.0806
+[05:21:27] epoch 14 done in 568s ce=0.227 w=0.0000 nuis_corr=0.390 lr=0.0780
+[05:30:55] epoch 15 done in 569s ce=0.221 w=0.0000 nuis_corr=0.371 lr=0.0752
+[05:40:25] epoch 16 done in 569s ce=0.215 w=0.0000 nuis_corr=0.365 lr=0.0723
+[05:49:53] epoch 17 done in 568s ce=0.212 w=0.0000 nuis_corr=0.369 lr=0.0693
+[05:59:21] epoch 18 done in 568s ce=0.208 w=0.0000 nuis_corr=0.356 lr=0.0663
+[06:08:50] epoch 19 done in 568s ce=0.203 w=0.0000 nuis_corr=0.361 lr=0.0631
+[06:18:19] epoch 20 done in 569s ce=0.200 w=0.0000 nuis_corr=0.332 lr=0.0599
+[06:27:47] epoch 21 done in 568s ce=0.196 w=0.0000 nuis_corr=0.355 lr=0.0567
+[06:37:15] epoch 22 done in 568s ce=0.194 w=0.0000 nuis_corr=0.366 lr=0.0534
+[06:46:44] epoch 23 done in 569s ce=0.191 w=0.0000 nuis_corr=0.360 lr=0.0502
+[06:46:59]   EVAL epoch 23: KITTI mIoU=25.71  STF mIoU=22.43
+[06:56:27] epoch 24 done in 568s ce=0.187 w=0.0000 nuis_corr=0.363 lr=0.0469
+[07:05:54] epoch 25 done in 567s ce=0.190 w=0.0000 nuis_corr=0.351 lr=0.0436
+[07:15:20] epoch 26 done in 566s ce=0.178 w=0.0000 nuis_corr=0.324 lr=0.0404
+[07:24:46] epoch 27 done in 566s ce=0.177 w=0.0000 nuis_corr=0.378 lr=0.0372
+[07:34:12] epoch 28 done in 566s ce=0.172 w=0.0000 nuis_corr=0.371 lr=0.0341
+[07:43:38] epoch 29 done in 566s ce=0.170 w=0.0000 nuis_corr=0.377 lr=0.0310
+[07:53:03] epoch 30 done in 565s ce=0.164 w=0.0000 nuis_corr=0.364 lr=0.0280
+[08:02:28] epoch 31 done in 565s ce=0.160 w=0.0000 nuis_corr=0.385 lr=0.0251
+[08:11:54] epoch 32 done in 565s ce=0.158 w=0.0000 nuis_corr=0.386 lr=0.0223
+[08:21:18] epoch 33 done in 565s ce=0.153 w=0.0000 nuis_corr=0.367 lr=0.0196
+[08:30:43] epoch 34 done in 565s ce=0.149 w=0.0000 nuis_corr=0.291 lr=0.0171
+[08:40:08] epoch 35 done in 565s ce=0.147 w=0.0000 nuis_corr=0.352 lr=0.0147
+[08:40:23]   EVAL epoch 35: KITTI mIoU=29.02  STF mIoU=23.22
+[08:49:47] epoch 36 done in 564s ce=0.145 w=0.0000 nuis_corr=0.366 lr=0.0125
+[08:59:12] epoch 37 done in 564s ce=0.141 w=0.0000 nuis_corr=0.375 lr=0.0104
+[09:08:36] epoch 38 done in 565s ce=0.138 w=0.0000 nuis_corr=0.363 lr=0.0085
+[09:18:01] epoch 39 done in 565s ce=0.135 w=0.0000 nuis_corr=0.375 lr=0.0067
+[09:27:25] epoch 40 done in 564s ce=0.133 w=0.0000 nuis_corr=0.360 lr=0.0052
+[09:36:50] epoch 41 done in 565s ce=0.131 w=0.0000 nuis_corr=0.354 lr=0.0038
+[09:46:14] epoch 42 done in 564s ce=0.128 w=0.0000 nuis_corr=0.360 lr=0.0027
+[09:55:38] epoch 43 done in 564s ce=0.125 w=0.0000 nuis_corr=0.326 lr=0.0017
+[10:05:01] epoch 44 done in 564s ce=0.124 w=0.0000 nuis_corr=0.360 lr=0.0010
+[10:14:26] epoch 45 done in 564s ce=0.122 w=0.0000 nuis_corr=0.375 lr=0.0004
+[10:23:50] epoch 46 done in 564s ce=0.122 w=0.0000 nuis_corr=0.340 lr=0.0001
+[10:33:15] epoch 47 done in 565s ce=0.122 w=0.0000 nuis_corr=0.327 lr=0.0000
+[10:33:30]   EVAL epoch 47: KITTI mIoU=27.63  STF mIoU=22.59
+[10:33:30] training complete
+[kitti] mIoU=27.98  nuis_corr=0.27744448967278
+[stf] mIoU=22.59  nuis_corr=0.2915849432349205

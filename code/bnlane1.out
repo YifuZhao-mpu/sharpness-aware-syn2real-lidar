@@ -1,0 +1,15 @@
+[06:43:01] calibration stream: 804 scans (stride 247), bs 4, unaugmented, deterministic
+[06:44:14] sampolar_s1 VERIFY stored K=29.64 S=24.68 | re-eval K=29.64 S=24.68
+[06:44:19] sampolar_s1: BN recalibrated over 201 batches in 5s
+[06:45:32] sampolar_s1: K 29.64 -> 27.63 (-2.01) | S 24.68 -> 22.73 (-1.95)  -> /home/zyf/paper/Syn2Real-LiDAR-DG（cvpr2027）/code/exp/sampolar_s1/bn_recalib.json
+[06:45:36] calibration stream: 804 scans (stride 247), bs 4, unaugmented, deterministic
+[06:45:42] sampolar_s2: BN recalibrated over 201 batches in 5s
+[06:46:55] sampolar_s2: K 30.63 -> 28.92 (-1.71) | S 24.52 -> 23.32 (-1.20)  -> /home/zyf/paper/Syn2Real-LiDAR-DG（cvpr2027）/code/exp/sampolar_s2/bn_recalib.json
+[06:47:01] sampolar_s3: BN recalibrated over 201 batches in 5s
+[06:48:14] sampolar_s3: K 30.87 -> 28.75 (-2.12) | S 25.65 -> 22.69 (-2.96)  -> /home/zyf/paper/Syn2Real-LiDAR-DG（cvpr2027）/code/exp/sampolar_s3/bn_recalib.json
+[06:48:19] polarmix_s1: BN recalibrated over 201 batches in 5s
+[06:49:34] polarmix_s1: K 28.73 -> 26.23 (-2.50) | S 23.17 -> 21.29 (-1.88)  -> /home/zyf/paper/Syn2Real-LiDAR-DG（cvpr2027）/code/exp/polarmix_s1/bn_recalib.json
+[06:49:39] polarmix_s2: BN recalibrated over 201 batches in 5s
+[06:50:53] polarmix_s2: K 29.63 -> 28.12 (-1.50) | S 24.65 -> 23.57 (-1.08)  -> /home/zyf/paper/Syn2Real-LiDAR-DG（cvpr2027）/code/exp/polarmix_s2/bn_recalib.json
+[06:50:59] polarmix_s3: BN recalibrated over 201 batches in 5s
+[06:52:12] polarmix_s3: K 28.65 -> 25.76 (-2.89) | S 23.05 -> 21.84 (-1.21)  -> /home/zyf/paper/Syn2Real-LiDAR-DG（cvpr2027）/code/exp/polarmix_s3/bn_recalib.json

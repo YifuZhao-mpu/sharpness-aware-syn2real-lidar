@@ -1,0 +1,44 @@
+{
+  "run": "polarmix_s2",
+  "cr": 0.5,
+  "n_scans": 500,
+  "intensity_scale": 0.00392156862745098,
+  "intensity_peek": {
+    "file": "000001.bin",
+    "ncols": 4,
+    "inten_min": 1.0,
+    "inten_max": 255.0
+  },
+  "asis": {
+    "mIoU": 0.3764972772217922,
+    "per_class": {
+      "person": 46.97,
+      "rider": 36.95,
+      "car": 13.92,
+      "trunk": 31.65,
+      "plants": 62.03,
+      "traffic-sign": 11.18,
+      "pole": 34.32,
+      "building": 62.8,
+      "fence": 22.55,
+      "bike": 19.58,
+      "ground": 72.21
+    }
+  },
+  "bn_recalib": {
+    "mIoU": 0.35860880269835604,
+    "per_class": {
+      "person": 41.55,
+      "rider": 30.73,
+      "car": 13.96,
+      "trunk": 29.59,
+      "plants": 62.35,
+      "traffic-sign": 12.2,
+      "pole": 35.15,
+      "building": 56.73,
+      "fence": 19.41,
+      "bike": 19.68,
+      "ground": 73.13
+    }
+  }
+}

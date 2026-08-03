@@ -1,0 +1,7 @@
+pending: ['pilot_sac05', 'pilot_sac10', 'pilot_sam005', 'pilot_sam010', 'pilot_noint', 'pilot_dr_sac']
+[22:38:52] launch pilot_sac05 GPU0
+[22:39:00] launch pilot_sac10 GPU1
+[22:40:08] done pilot_sac05 GPU0 rc=1 ok=False
+[22:40:08] done pilot_sac10 GPU1 rc=1 ok=False
+[22:40:23] launch pilot_sam005 GPU0
+[22:40:31] launch pilot_sam010 GPU1

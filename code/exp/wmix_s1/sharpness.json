@@ -1,0 +1,8 @@
+{
+  "ckpt": "exp/wmix_s1/model.pth",
+  "rho": 0.05,
+  "base_loss": 0.08735393919050694,
+  "sharpness_mean": 0.06164257638156414,
+  "sharpness_std": 0.019530944310698396,
+  "n_dirs": 5
+}

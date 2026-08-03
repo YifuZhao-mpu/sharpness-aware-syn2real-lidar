@@ -1,0 +1,8 @@
+{
+  "ckpt": "/home/zyf/paper/Syn2Real-LiDAR-DG/code/exp/wmix_s2/model.pth",
+  "rho": 0.05,
+  "base_loss": 0.10979278727124135,
+  "sharpness_mean": 0.03523086158869167,
+  "sharpness_std": 0.011245353091077062,
+  "n_dirs": 8
+}

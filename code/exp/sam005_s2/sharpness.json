@@ -1,0 +1,8 @@
+{
+  "ckpt": "exp/sam005_s2/model.pth",
+  "rho": 0.05,
+  "base_loss": 0.11990482608477275,
+  "sharpness_mean": 0.008751012881596876,
+  "sharpness_std": 0.0032484282500640444,
+  "n_dirs": 5
+}

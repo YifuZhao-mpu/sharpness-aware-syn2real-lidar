@@ -1,0 +1,44 @@
+{
+  "run": "wmix_s1",
+  "cr": 0.5,
+  "n_scans": 500,
+  "intensity_scale": 0.00392156862745098,
+  "intensity_peek": {
+    "file": "000001.bin",
+    "ncols": 4,
+    "inten_min": 1.0,
+    "inten_max": 255.0
+  },
+  "asis": {
+    "mIoU": 0.40351193411425557,
+    "per_class": {
+      "person": 45.02,
+      "rider": 40.75,
+      "car": 17.64,
+      "trunk": 41.99,
+      "plants": 63.44,
+      "traffic-sign": 16.89,
+      "pole": 31.29,
+      "building": 67.73,
+      "fence": 28.2,
+      "bike": 18.18,
+      "ground": 72.74
+    }
+  },
+  "bn_recalib": {
+    "mIoU": 0.3791468793727136,
+    "per_class": {
+      "person": 37.92,
+      "rider": 36.28,
+      "car": 17.04,
+      "trunk": 41.69,
+      "plants": 62.58,
+      "traffic-sign": 16.16,
+      "pole": 32.98,
+      "building": 59.31,
+      "fence": 20.82,
+      "bike": 20.74,
+      "ground": 71.54
+    }
+  }
+}

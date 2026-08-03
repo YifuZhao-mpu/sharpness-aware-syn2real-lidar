@@ -1,0 +1,8 @@
+{
+  "ckpt": "exp/samsens_s1/model.pth",
+  "rho": 0.05,
+  "base_loss": 0.11579496040940285,
+  "sharpness_mean": 0.014012503003080684,
+  "sharpness_std": 0.00797514409024445,
+  "n_dirs": 5
+}
