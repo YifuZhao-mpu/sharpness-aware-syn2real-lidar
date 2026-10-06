@@ -1,0 +1,65 @@
+{
+  "title": "Controlled empirical characterization of sharpness aware minimization for synthetic to real transfer in LiDAR semantic segmentation: code and raw evaluation results",
+  "description": "<p>Training, evaluation, control, probe, analysis, and figure code, the raw per-run evaluation files (423 JSON files across 63 runs), the unedited job logs, and the frozen-protocol manifest for a controlled empirical study of sharpness-aware minimization (SAM) in synthetic-to-real LiDAR semantic segmentation (SynLiDAR to SemanticKITTI, SemanticSTF, and SemanticPOSS), including a BatchNorm recalibration control, a compute control, a loss-landscape perturbation probe, and a development-independent SemanticPOSS evaluation.</p><p>Every number, table, and data figure in the article can be regenerated from the JSON files without a GPU. Trained checkpoints (55 files, 2.6 GB) are not included; their SHA-256 hashes are recorded in POSS_FREEZE_MANIFEST.md. The datasets are not redistributed.</p><p>Requires Python 3, PyTorch with CUDA, spconv, numpy, scipy, and matplotlib.</p>",
+  "upload_type": "software",
+  "version": "1.1.0",
+  "license": "MIT",
+  "access_right": "open",
+  "language": "eng",
+  "creators": [
+    {
+      "name": "Zhao, Yifu",
+      "affiliation": "Faculty of Applied Sciences, Macao Polytechnic University, Macao, China",
+      "orcid": "0009-0004-2363-9269"
+    },
+    {
+      "name": "Zou, Xiaofan",
+      "affiliation": "School of Mechanical and Electrical Engineering and Automation, Shanghai University, Shanghai, China",
+      "orcid": "0009-0005-5995-3150"
+    },
+    {
+      "name": "Wei, Junhao",
+      "affiliation": "Faculty of Applied Sciences, Macao Polytechnic University, Macao, China",
+      "orcid": "0009-0006-0553-2032"
+    },
+    {
+      "name": "Li, Yanxiao",
+      "affiliation": "Faculty of Applied Sciences, Macao Polytechnic University, Macao, China",
+      "orcid": "0009-0008-3389-1619"
+    },
+    {
+      "name": "Li, Haochen",
+      "affiliation": "Faculty of Applied Sciences, Macao Polytechnic University, Macao, China",
+      "orcid": "0009-0000-8213-5854"
+    },
+    {
+      "name": "Lu, Baili",
+      "affiliation": "Faculty of Applied Sciences, Macao Polytechnic University, Macao, China",
+      "orcid": "0009-0000-3814-2918"
+    },
+    {
+      "name": "Im, Sio-Kei",
+      "affiliation": "Macao Polytechnic University, Macao, China",
+      "orcid": "0000-0002-5599-4300"
+    },
+    {
+      "name": "Wang, Yapeng",
+      "affiliation": "Faculty of Applied Sciences, Macao Polytechnic University, Macao, China",
+      "orcid": "0000-0002-1085-5091"
+    },
+    {
+      "name": "Yang, Xu",
+      "affiliation": "Faculty of Applied Sciences, Macao Polytechnic University, Macao, China",
+      "orcid": "0000-0002-7037-3609"
+    }
+  ],
+  "keywords": [
+    "LiDAR semantic segmentation",
+    "synthetic-to-real transfer",
+    "domain generalization",
+    "sharpness-aware minimization",
+    "loss landscape",
+    "reproducibility"
+  ],
+  "notes": "Supported by a grant from Macao Polytechnic University (RP/FCA-06/2026) and the Macao Science and Technology Development Fund (FDCT-MOST: 0018/2025/AMJ)."
+}
