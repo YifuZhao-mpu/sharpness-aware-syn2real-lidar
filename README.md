@@ -163,7 +163,7 @@ MIT — see `LICENSE`. The datasets remain under their own licenses.
 
 ## Versions
 
-- **v1.0** (August 2026): the archive as cited in the original submission.
+- **Initial commit `099260e`** (August 2026): the archive as cited in the original submission.
 - **v1.1.0** (October 2026): accompanies the revised manuscript. Adds
   `code/make_si_figures_r1.py` and revises `code/make_fig_sharp2.py` (larger text, legend
   below the axes, colour-vision-safe encoding); README corrections (single-GPU runs; the
