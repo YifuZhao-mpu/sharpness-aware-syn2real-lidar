@@ -173,5 +173,6 @@ MIT — see `LICENSE`. The datasets remain under their own licenses.
 
 ## Citation
 
-Archived on Zenodo (the DOI is listed on the release page). BibTeX for the article will be
-added here once it has a DOI.
+Archived on Zenodo: v1.1.0 at https://doi.org/10.5281/zenodo.23186103 (all versions:
+https://doi.org/10.5281/zenodo.23186102). BibTeX for the article will be added here once it
+has a DOI.
